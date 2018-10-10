@@ -75,3 +75,7 @@ Running 30s test @ http://127.0.0.1:8080/static/js/vendor.2420502e2b2c7f321d64.j
 Requests/sec:    450.59
 Transfer/sec:     48.32MB
 ```
+
+## For more information see
+
+See Makefile
