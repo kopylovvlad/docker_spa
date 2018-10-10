@@ -1,0 +1,12 @@
+FROM jwilder/nginx-proxy
+
+RUN mkdir /spa
+WORKDIR /spa
+
+COPY dist/ .
+
+# add nginx config
+ADD nginx.conf /etc/nginx/nginx.conf
+
+CMD nginx
+
